@@ -1,0 +1,53 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    
+}
+ *,*::before , *::after{
+    box-sizing: inherit;
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+    display: grid;
+    place-items:center ;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 3rem;
+    line-height: 1;
+    }
+
+ 
+button{
+    background-color: crimson;
+    border: none;
+    color: aliceblue;
+    padding:  1rem 2rem;
+    border-radius:  0.5rem;
+    font-size: 1rem;
+    transition: background 150ms  ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: rgb(160, 0, 32);
+}
+
+
+
+ #dinoName{
+    padding: 10px;
+    margin: 2rem;
+    background-color: rgba(124, 124, 124, 0.288);
+    border-radius: 0.5rem;
+ }
+ img {
+    box-shadow: 20px 20px 10px rgb(94, 94, 94);
+    border: 100px;
+    border-radius: 1rem;
+  }
